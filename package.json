@@ -2,10 +2,10 @@
   "name": "portfolio-website",
   "version": "1.0.0",
   "description": "Modern 3D Portfolio Website for Data Analyst",
-  "main": "index.html",
+  "main": "server.js",
   "scripts": {
-    "dev": "npx http-server -p 8000 -o",
-    "start": "npx http-server -p $PORT -a 0.0.0.0"
+    "dev": "node server.js",
+    "start": "node server.js"
   },
   "keywords": [
     "portfolio",
