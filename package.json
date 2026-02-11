@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "dev": "npx http-server -p 8000 -o",
-    "start": "npx http-server -p 8000 -o"
+    "start": "npx http-server -p $PORT -a 0.0.0.0"
   },
   "keywords": [
     "portfolio",
@@ -14,5 +14,8 @@
   ],
   "author": "Pavan Vignesh Bayisetti",
   "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "devDependencies": {}
 }
