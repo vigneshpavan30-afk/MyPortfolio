@@ -1,6 +1,4 @@
-services:
-  - type: web
-    name: portfolio-website
-    buildCommand: npm install
-    startCommand: node server.js
-    env: node
+static_sites:
+  - name: portfolio-website
+    buildCommand: ""
+    publishPath: .

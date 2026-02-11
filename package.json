@@ -2,11 +2,9 @@
   "name": "portfolio-website",
   "version": "1.0.0",
   "description": "Modern 3D Portfolio Website for Data Analyst",
-  "main": "server.js",
+  "main": "index.html",
   "scripts": {
-    "dev": "node server.js",
-    "start": "node server.js",
-    "render-start": "node server.js"
+    "dev": "npx http-server -p 8000 -o"
   },
   "keywords": [
     "portfolio",
@@ -14,9 +12,5 @@
     "data-analyst"
   ],
   "author": "Pavan Vignesh Bayisetti",
-  "license": "MIT",
-  "engines": {
-    "node": ">=18.0.0"
-  },
-  "devDependencies": {}
+  "license": "MIT"
 }
