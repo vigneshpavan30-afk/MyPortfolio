@@ -1,4 +1,7 @@
+# Render Static Site Configuration
+# Use this when creating a Static Site in Render Dashboard
+
 static_sites:
   - name: portfolio-website
     buildCommand: ""
-    publishPath: .
+    publishPath: "."
