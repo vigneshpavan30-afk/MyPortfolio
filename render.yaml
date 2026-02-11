@@ -2,4 +2,5 @@ services:
   - type: web
     name: portfolio-website
     buildCommand: npm install
-    startCommand: npm start
+    startCommand: node server.js
+    env: node
