@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pavan Vignesh - Data Analyst Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+</head>
+<body>
+    <!-- 3D Background Particles -->
+    <canvas id="particles-canvas"></canvas>
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">PV</div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section with 3D Object -->
+    <section id="home" class="hero-section">
+        <canvas id="hero-canvas"></canvas>
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="title-line">Pavan Vignesh Bayisetti</span>
+                <span class="title-line">Data Analyst</span>
+            </h1>
+            <p class="hero-subtitle">Transforming Data into Insights</p>
+            <div class="hero-cta">
+                <a href="#projects" class="cta-button">View My Work</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <canvas id="about-3d-canvas"></canvas>
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-description">
+                        Detail-driven Data Analyst skilled in transforming complex data into actionable insights that drive business performance. 
+                        With hands-on experience in SQL, Python, Excel, Power BI, and Tableau, I specialize in deriving KPIs, building dashboards, 
+                        and performing in-depth analytics to support strategic decisions. I helped increase renewal revenue by 50% through targeted 
+                        performance metrics and sales funnel analysis. Equipped with a solid foundation in data modelling and visualization, 
+                        I bring a practical, outcome-focused approach to solving real-world data challenges.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <div class="stat-number">50%</div>
+                            <div class="stat-label">Revenue Increase</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">1.4M+</div>
+                            <div class="stat-label">Records Analyzed</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">4</div>
+                            <div class="stat-label">Certifications</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience-section">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="experience-timeline">
+                <div class="experience-item">
+                    <div class="experience-year">2026 - Present</div>
+                    <div class="experience-content">
+                        <h3 class="experience-company">thinkbyte.ai</h3>
+                        <h4 class="experience-role">Generative AI Developer (Intern)</h4>
+                        <p class="experience-description">
+                            Working as a Generative AI Developer intern, focusing on developing and implementing AI solutions 
+                            using cutting-edge generative AI technologies. Contributing to projects that leverage large language 
+                            models and AI agents to solve real-world problems.
+                        </p>
+                        <div class="experience-tags">
+                            <span class="exp-tag">Generative AI</span>
+                            <span class="exp-tag">LLMs</span>
+                            <span class="exp-tag">AI Agents</span>
+                            <span class="exp-tag">Python</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education-section">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-timeline">
+                <div class="education-item">
+                    <div class="education-year">2022-2026</div>
+                    <div class="education-content">
+                        <h3 class="education-institution">Vellore Institute of Technology</h3>
+                        <p class="education-degree">Bachelor of Technology, Computer Science and Engineering</p>
+                        <p class="education-grade">CGPA: 8.04</p>
+                    </div>
+                </div>
+                <div class="education-item">
+                    <div class="education-year">2019-2022</div>
+                    <div class="education-content">
+                        <h3 class="education-institution">Sasi Junior College</h3>
+                        <p class="education-degree">Intermediate Education</p>
+                        <p class="education-grade">Percentage: 96.6%</p>
+                    </div>
+                </div>
+                <div class="education-item">
+                    <div class="education-year">2018-2019</div>
+                    <div class="education-content">
+                        <h3 class="education-institution">Ramakrishna English Medium High School</h3>
+                        <p class="education-degree">Secondary Education</p>
+                        <p class="education-grade">GPA: 9.7</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications-section">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <div class="certifications-grid">
+                <div class="certification-card">
+                    <div class="cert-icon">SQL</div>
+                    <h3 class="cert-name">SQL</h3>
+                    <p class="cert-year">2025</p>
+                    <a href="https://drive.google.com/file/d/1ntngWmZdQiBN8zczdn-0Nr0vMNgXl5Gg/view?usp=drive_link" target="_blank" rel="noopener noreferrer" class="cert-link">View Certificate →</a>
+                </div>
+                <div class="certification-card">
+                    <div class="cert-icon">Power BI</div>
+                    <h3 class="cert-name">Microsoft Power BI for Data Analytics</h3>
+                    <p class="cert-year">2025</p>
+                    <a href="https://drive.google.com/file/d/1VAo7TKIMC0uW3Ubxb_fFhXG66UZ6woJy/view?usp=drive_link" target="_blank" rel="noopener noreferrer" class="cert-link">View Certificate →</a>
+                </div>
+                <div class="certification-card">
+                    <div class="cert-icon">Python</div>
+                    <h3 class="cert-name">Python For Beginners</h3>
+                    <p class="cert-year">2025</p>
+                    <a href="https://drive.google.com/file/d/14pIaX8wVKMCm87DdUx_TozT7tLdlHwPO/view?usp=drive_link" target="_blank" rel="noopener noreferrer" class="cert-link">View Certificate →</a>
+                </div>
+                <div class="certification-card">
+                    <div class="cert-icon">Excel</div>
+                    <h3 class="cert-name">Excel</h3>
+                    <p class="cert-year">2025</p>
+                    <a href="https://drive.google.com/file/d/1Lia59KMrBLz1-NNVoWi6VZjUA6IaGdiJ/view?usp=drive_link" target="_blank" rel="noopener noreferrer" class="cert-link">View Certificate →</a>
+                </div>
+                <div class="certification-card">
+                    <div class="cert-icon">Deloitte</div>
+                    <h3 class="cert-name">Deloitte Forage Certificate</h3>
+                    <p class="cert-year">2025</p>
+                    <a href="https://drive.google.com/file/d/1eyHk-sE18O4VNpGOXyKmtsCw24z2udEM/view?usp=drive_link" target="_blank" rel="noopener noreferrer" class="cert-link">View Certificate →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section with Animated Grid -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2 class="section-title">Skills & Expertise</h2>
+            <div class="skills-grid" id="skills-grid">
+                <!-- Skills will be dynamically generated -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Exploratory Data Analytics in Hospitality Domain</h3>
+                        <p class="project-description">
+                            Reduced cancellation risk by up to 50% by identifying high-risk booking channels through EDA. 
+                            Increased overall occupancy and revenue by 30% by uncovering seasonal demand patterns and optimizing pricing. 
+                            Improved guest satisfaction metrics by 40% by analyzing guest behavior and identifying key service improvement areas.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">EDA</span>
+                            <span class="tag">Data Analysis</span>
+                        </div>
+                        <a href="https://github.com/vigneshpavan30-afk/Exploratory-Data-Analytics-in-Hospitality-Domain" target="_blank" rel="noopener noreferrer" class="project-link">View on GitHub →</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Pizza Sales Analytics</h3>
+                        <p class="project-description">
+                            Developed an interactive Power BI dashboard to track key sales metrics such as Total Revenue, 
+                            Top-selling pizzas, Order Volume, and Sales by Category and Size. Utilized MySQL to clean, join, 
+                            and aggregate raw sales data. Created calculated fields and DAX measures to derive insights like 
+                            sales trends, daily order patterns, and percentage contributions by product attributes.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">SQL</span>
+                            <span class="tag">Power BI</span>
+                            <span class="tag">MySQL</span>
+                        </div>
+                        <a href="https://github.com/vigneshpavan30-afk/Pizza-Sales-Analytics" target="_blank" rel="noopener noreferrer" class="project-link">View on GitHub →</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Financial & Supply Chain Analytics</h3>
+                        <p class="project-description">
+                            Designed and optimized SQL queries to analyze Financial and Supply Chain datasets containing 1.4M+ records, 
+                            ensuring efficient data extraction and transformation. Developed structured reports and insights to support 
+                            business decision-making across finance and operations domains.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">MySQL</span>
+                            <span class="tag">SQL Joins</span>
+                            <span class="tag">Stored Procedures</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Automation Using AI Agent</h3>
+                        <p class="project-description">
+                            Automated data ingestion, cleaning, and transformation workflows using n8n, reducing manual data processing efforts. 
+                            Integrated AI agents (LLMs) to analyze and classify unstructured data, enabling faster and more accurate insights. 
+                            Connected multiple APIs and databases to build analytics-ready datasets and support real-time, event-driven reporting.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">N8N</span>
+                            <span class="tag">SupaBase</span>
+                            <span class="tag">Gemini AI</span>
+                        </div>
+                        <a href="https://github.com/vigneshpavan30-afk/Automation-Using-Ai-Agent" target="_blank" rel="noopener noreferrer" class="project-link">View on GitHub →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <canvas id="contact-3d-canvas"></canvas>
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="contact-subtitle">Let's collaborate on your next data-driven project</p>
+            <div class="contact-content">
+                <a href="mailto:vigneshpavan30@gmail.com" class="magnetic-button">
+                    <span class="button-text">Contact Me</span>
+                    <span class="button-ripple"></span>
+                </a>
+                <div class="contact-info">
+                    <p class="contact-detail"><strong>Email:</strong> <a href="mailto:vigneshpavan30@gmail.com">vigneshpavan30@gmail.com</a></p>
+                    <p class="contact-detail"><strong>Phone:</strong> <a href="tel:+917569791607">+91-7569791607</a></p>
+                    <p class="contact-detail"><strong>Location:</strong> Vijayawada, India</p>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/pavan-vignesh-bayisetti-802a84263" target="_blank" rel="noopener noreferrer" class="social-link">LinkedIn</a>
+                    <a href="https://github.com/vigneshpavan30-afk" target="_blank" rel="noopener noreferrer" class="social-link">GitHub</a>
+                    <a href="mailto:vigneshpavan30@gmail.com" class="social-link">Email</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Pavan Vignesh Bayisetti. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

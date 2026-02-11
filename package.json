@@ -1,0 +1,18 @@
+{
+  "name": "portfolio-website",
+  "version": "1.0.0",
+  "description": "Modern 3D Portfolio Website for Data Analyst",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx http-server -p 8000 -o",
+    "start": "npx http-server -p 8000 -o"
+  },
+  "keywords": [
+    "portfolio",
+    "3d",
+    "data-analyst"
+  ],
+  "author": "Pavan Vignesh Bayisetti",
+  "license": "MIT",
+  "devDependencies": {}
+}
