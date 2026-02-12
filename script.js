@@ -713,7 +713,41 @@ document.addEventListener('DOMContentLoaded', () => {
     initScrollAnimations();
     initProjectCards();
     initNavigation();
+    initMobileMenu();
 });
+
+// ============================================
+// Mobile Menu Toggle
+// ============================================
+
+function initMobileMenu() {
+    const toggle = document.querySelector('.mobile-menu-toggle');
+    const menu = document.querySelector('.nav-menu');
+    
+    if (toggle && menu) {
+        toggle.addEventListener('click', () => {
+            toggle.classList.toggle('active');
+            menu.classList.toggle('active');
+        });
+
+        // Close menu when clicking on a link
+        const navLinks = document.querySelectorAll('.nav-link');
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                toggle.classList.remove('active');
+                menu.classList.remove('active');
+            });
+        });
+
+        // Close menu when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!menu.contains(e.target) && !toggle.contains(e.target)) {
+                toggle.classList.remove('active');
+                menu.classList.remove('active');
+            }
+        });
+    }
+}
 
 // Cleanup on page unload
 window.addEventListener('beforeunload', () => {
