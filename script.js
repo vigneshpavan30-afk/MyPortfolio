@@ -284,12 +284,15 @@ function buildSkills() {
 function initReveal() {
     const items = document.querySelectorAll('.reveal, .skill-card');
 
+    // Trigger count-up on the element itself or any [data-count] inside it.
+    const fireCounters = (el) => {
+        const targets = el.matches('[data-count]') ? [el] : el.querySelectorAll('[data-count]');
+        targets.forEach(animateCount);
+    };
+
     // Fallback: if IntersectionObserver is missing, reveal everything immediately.
     if (!('IntersectionObserver' in window)) {
-        items.forEach(el => {
-            el.classList.add('visible');
-            if (el.dataset.count !== undefined) animateCount(el);
-        });
+        items.forEach(el => { el.classList.add('visible'); fireCounters(el); });
         return;
     }
 
@@ -297,7 +300,7 @@ function initReveal() {
         entries.forEach(e => {
             if (e.isIntersecting) {
                 e.target.classList.add('visible');
-                if (e.target.dataset.count !== undefined) animateCount(e.target);
+                fireCounters(e.target);
                 obs.unobserve(e.target);
             }
         });
