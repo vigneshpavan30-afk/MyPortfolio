@@ -275,6 +275,7 @@ html:not(.js) .preloader { display: none; }
 }
 .timeline-item:hover { border-color: rgba(139,92,246,0.4); }
 .timeline-year { color: var(--violet); font-weight: 600; font-size: 0.95rem; }
+.timeline-duration { display: block; margin-top: 0.3rem; color: var(--text-dim); font-weight: 500; font-size: 0.85rem; }
 .timeline-title { font-family: 'Space Grotesk', sans-serif; font-size: 1.35rem; font-weight: 600; }
 .timeline-org { color: var(--cyan); font-weight: 500; margin: 0.2rem 0 0.8rem; }
 .timeline-desc { color: var(--text-dim); margin-bottom: 1rem; }
