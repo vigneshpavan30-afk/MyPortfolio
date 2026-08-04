@@ -18,10 +18,9 @@ const isSmall = window.innerWidth < 768;
    Skills data
    ============================================================ */
 const skills = [
-    'Python', 'MySQL', 'Java', 'HTML', 'CSS',
-    'Excel', 'Power BI', 'Tableau',
-    'Data Cleaning', 'Data Modeling', 'Data Visualization',
-    'n8n', 'Supabase', 'Generative AI', 'Web Scraping'
+    'Generative AI', 'LLMs', 'AI Agents', 'Prompt Engineering', 'RAG',
+    'Python', 'Web Scraping', 'Automation', 'n8n', 'Supabase',
+    'MySQL', 'Java', 'HTML', 'CSS', 'WordPress', 'Shopify'
 ];
 
 const skillIcons = {
@@ -30,9 +29,8 @@ const skillIcons = {
     'Java': 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg',
     'HTML': 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg',
     'CSS': 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg',
-    'Excel': 'https://img.icons8.com/color/96/000000/microsoft-excel-2019.png',
-    'Power BI': 'https://raw.githubusercontent.com/microsoft/PowerBI-Icons/main/SVG/Power-BI.svg',
-    'Tableau': 'https://img.icons8.com/color/96/000000/tableau-software.png',
+    'WordPress': 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/wordpress/wordpress-original.svg',
+    'Shopify': 'https://cdn.simpleicons.org/shopify/95BF47',
     'n8n': 'https://cdn.jsdelivr.net/gh/n8n-io/n8n@master/assets/n8n-logo.png',
     'Supabase': 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/supabase/supabase-original.svg'
 };

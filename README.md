@@ -1,6 +1,6 @@
 # Portfolio Website
 
-Modern 3D Portfolio Website for Data Analyst - Pavan Vignesh Bayisetti
+Modern 3D Portfolio Website for AI Developer - Pavan Vignesh Bayisetti
 
 ## Features
 
